@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: relative;
+   
+}
+
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(194, 192, 192);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li{
+    font-size: 1.1rem;
+}
+
+.navbar ul li a{
+    
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+
+}
+span{
+    color: rgb(197, 195, 194);
+}
+
+.img{
+    position:absolute;
+    top: 80px;
+    right: 50px;
+    border: solid whitesmoke;
+}
+
+
